@@ -1,0 +1,59 @@
+{
+    "tables": [
+        {
+            "name": "Customer",
+            "columns": [
+                { "name": "Id", "data_type": "int" },
+                { "name": "FirstName", "data_type": "nvarchar" },
+                { "name": "LastName", "data_type": "nvarchar" },
+                { "name": "City", "data_type": "nvarchar" },
+                { "name": "Country", "data_type": "nvarchar" },
+                { "name": "Phone", "data_type": "nvarchar" }
+            ]
+        },
+        {
+            "name": "Order",
+            "columns": [
+                { "name": "Id", "data_type": "int" },
+                { "name": "OrderDate", "data_type": "datetime" },
+                { "name": "OrderNumber", "data_type": "nvarchar" },
+                { "name": "CustomerId", "data_type": "int" },
+                { "name": "TotalAmount", "data_type": "decimal" }
+            ]
+        },
+        {
+            "name": "OrderItem",
+            "columns": [
+                { "name": "Id", "data_type": "int" },
+                { "name": "OrderId", "data_type": "int" },
+                { "name": "ProductId", "data_type": "int" },
+                { "name": "UnitPrice", "data_type": "decimal" },
+                { "name": "Quantity", "data_type": "int" }
+            ]
+        },
+        {
+            "name": "Product",
+            "columns": [
+                { "name": "Id", "data_type": "int" },
+                { "name": "ProductName", "data_type": "nvarchar" },
+                { "name": "SupplierId", "data_type": "int" },
+                { "name": "UnitPrice", "data_type": "decimal" },
+                { "name": "Package", "data_type": "nvarchar" },
+                { "name": "IsDiscontinued", "data_type": "bit" }
+            ]
+        },
+        {
+            "name": "Supplier",
+            "columns": [
+                { "name": "Id", "data_type": "int" },
+                { "name": "CompanyName", "data_type": "nvarchar" },
+                { "name": "ContactName", "data_type": "nvarchar" },
+                { "name": "ContactTitle", "data_type": "nvarchar" },
+                { "name": "City", "data_type": "nvarchar" },
+                { "name": "Country", "data_type": "nvarchar" },
+                { "name": "Phone", "data_type": "nvarchar" },
+                { "name": "Fax", "data_type": "nvarchar" }
+            ]
+        }
+    ]
+}

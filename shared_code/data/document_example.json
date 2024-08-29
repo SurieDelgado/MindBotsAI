@@ -1,0 +1,23 @@
+{
+    "nl_response": "\n\nUna de las principales causas del fracaso de Google Glass fue su dificultad para identificar de manera adecuada el problema o la necesidad que intentaba resolver. A pesar de ser una tecnología innovadora, no existía una demanda clara ni un caso de uso convincente para el producto. Además, surgieron inquietudes en relación con la privacidad y la seguridad debido a su capacidad de grabar y compartir información de manera constante. Estos factores contribuyeron a la falta de aceptación y adopción del producto por parte del público. ",
+    "semantic_results": [
+        {
+            "metadata_storage_name": "a.txt",
+            "results": [
+                {
+                    "text": "Causa: Una dificultad clave fue que Google Glass no logró identificar de manera adecuada el problema o la necesidad que intentaba resolver A pesar de ser una tecnología innovadora, no existía una demanda clara ni un caso de uso convincente para el producto Además, surgieron inquietudes en relación con la privacidad y la seguridad debido a su capaci...",
+                    "highlights": "Causa: Una dificultad clave fue que<em> Google Glass</em> no logró identificar de manera adecuada el<em> problema</em> o la necesidad que intentaba resolver A pesar de ser una tecnología innovadora, no existía una demanda clara ni un caso de uso convincente para el producto Además, surgieron inquietudes en relación con la privacidad y la seguridad debido a su capaci..."
+                }
+            ]
+        },
+        {
+            "metadata_storage_name": "b.txt",
+            "results": [
+                {
+                    "text": "Causa: Una dificultad clave fue que Google Glass no logró identificar de manera adecuada el problema o la necesidad que intentaba resolver A pesar de ser una tecnología innovadora, no existía una demanda clara ni un caso de uso convincente para el producto Además, surgieron inquietudes en relación con la privacidad y la seguridad debido a su capaci...",
+                    "highlights": "Causa: Una dificultad clave fue que<em> Google Glass</em> no logró identificar de manera adecuada el<em> problema</em> o la necesidad que intentaba resolver A pesar de ser una tecnología innovadora, no existía una demanda clara ni un caso de uso convincente para el producto Además, surgieron inquietudes en relación con la privacidad y la seguridad debido a su capaci..."
+                }
+            ]
+        }
+    ]
+}

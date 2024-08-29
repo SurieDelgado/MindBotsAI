@@ -1,0 +1,30 @@
+{
+    "prompt": "Give me the clients that have bought 'Genen Shouyu'",
+    "query": "\nSELECT [dbo].[Customer].[FirstName], [dbo].[Customer].[LastName]\nFROM [dbo].[Customer]\nINNER JOIN [dbo].[Order] ON [dbo].[Customer].[Id] = [dbo].[Order].[CustomerId]\nINNER JOIN [dbo].[OrderItem] ON [dbo].[Order].[Id] = [dbo].[OrderItem].[OrderId]\nINNER JOIN [dbo].[Product] ON [dbo].[OrderItem].[ProductId] = [dbo].[Product].[Id]\nWHERE [dbo].[Product].[ProductName] LIKE 'Genen Shouyu'",
+    "db_result": [
+        {
+            "FirstName": "Carlos",
+            "LastName": "González"
+        },
+        {
+            "FirstName": "Philip",
+            "LastName": "Cramer"
+        },
+        {
+            "FirstName": "Annette",
+            "LastName": "Roulet"
+        },
+        {
+            "FirstName": "Jaime",
+            "LastName": "Yorres"
+        },
+        {
+            "FirstName": "Renate",
+            "LastName": "Messner"
+        },
+        {
+            "FirstName": "Jose",
+            "LastName": "Pavarotti"
+        }
+    ]
+}
