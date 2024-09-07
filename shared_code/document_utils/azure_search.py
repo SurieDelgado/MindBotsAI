@@ -8,7 +8,7 @@ class AzureSearchHelper():
     def __init__(self):
         self.search_client = SearchClient(
             os.environ['azure_url'],
-            "azureblob-index",
+            "document-index",
             AzureKeyCredential(os.environ['azure_apikey'])
         )
 

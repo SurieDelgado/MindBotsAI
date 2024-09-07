@@ -31,9 +31,9 @@ class SQLExecutor():
         try:
             print('Connecting to the SQL database...')
             server=os.environ['sql_url']
-            user=os.envion['sql_user']
-            password=os.envion['sql_pass']
-            database=os.envion['sql_db']
+            user=os.environ['sql_user']
+            password=os.environ['sql_pass']
+            database=os.environ['sql_db']
             driver = '{ODBC Driver 18 for SQL Server}'
             print(f'DRIVER={driver};SERVER={server};DATABASE={database};UID={user};PWD={password};')
             conn = pyodbc.connect(

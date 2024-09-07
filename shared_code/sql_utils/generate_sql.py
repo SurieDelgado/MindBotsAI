@@ -4,7 +4,7 @@ import os
 
 class SQLGenerator(): 
     def __init__(self, prompt):
-        self.client = OpenAI(api_key = OpenAI(api_key = os.environ['openai_key']))
+        self.client = OpenAI(api_key = str(os.environ['openai_key']))
         self.prompt = prompt
         with open('shared_code/data/metadata.json') as f:
             self.metadata = json.load(f)
